@@ -15,5 +15,7 @@ cd ./solar-challenge-week1
 
 python -m venv venv
 
+source ./solar-challenge-week1/bin/activate
+
 pip install -r requirements.txt
 ```
