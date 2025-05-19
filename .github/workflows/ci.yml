@@ -1,0 +1,21 @@
+on:
+  push:
+    branches:
+      - setup-task
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo
+      - uses: actions/checkout@v4
+
+      - name: setup python
+      - uses: actions/setup-python@v4
+
+      - name: install requirements
+      - run: python requirements.txt
+
+      - name: print python version
+      - run: python --version
