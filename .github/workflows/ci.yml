@@ -9,13 +9,13 @@ jobs:
 
     steps:
       - name: checkout repo
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: setup python
-      - uses: actions/setup-python@v4
+        uses: actions/setup-python@v4
 
       - name: install requirements
-      - run: python requirements.txt
+        run: python requirements.txt
 
       - name: print python version
-      - run: python --version
+        run: python --version
