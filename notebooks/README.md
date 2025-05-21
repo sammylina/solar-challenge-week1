@@ -1,7 +1,7 @@
 # Profiling and Data Cleaning
 
-The <country>_eda.ipynb notebooks perform profiling and data cleaning. After that it will save the
-cleaned data in data/ folder under <country>_clean.csv filename.
+The &lt;country&gt;_eda.ipynb notebooks perform profiling and data cleaning. After that it will save the
+cleaned data in data/ folder under &lt;country&gt;_clean.csv filename.
 
 The process taken to profile and clean the data is the following
 
